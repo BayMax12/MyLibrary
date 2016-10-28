@@ -102,8 +102,7 @@ Node* erase(Node* root, KeyType key) {
 	return root;
 }
 
-
-Node* kth(Node* root, int k) {
+Node* kth(Node* root, int k){
 	if(root==NULL) return NULL;
 	int leftSize = 0;
 	if (root->left != NULL) leftSize = root->left->size;

@@ -55,16 +55,4 @@ int main() {
     for (ll p: x) printf("%lld\n", p);
   }
 }
-/* 
-// SPOJ2 
-int main() { 
-  int n; scanf("%d", &n);
-  for (int i = 0; i < n; ++i) {
-    if (i > 0) printf("\n");
-    ll lo, hi;
-    scanf("%lld %lld", &lo, &hi);
-    auto x = primes(lo, hi+1);
-    for (ll p: x) printf("%lld\n", p);
-  }
-}
-*/
+

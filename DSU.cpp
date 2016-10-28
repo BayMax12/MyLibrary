@@ -32,4 +32,4 @@ struct DisjointSet
         return find(element1) == find(element2);
     }
 };
-Sign up for free
+

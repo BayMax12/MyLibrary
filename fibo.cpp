@@ -22,7 +22,8 @@ void fib(ll n, ll&x, ll&y){
 	3.) F[2n] = F[n]*(F[n+1]+F[n-1])
 	4.) gcd(F[m],F[n])=F[gcd(m,n)]
 	5.) from 2 and 3 F[nk]%F[n]==0
-	6.) Zeckendorf theorem
+	6.) F[0] + F[1] + F[2] + .... F[x] = F[x+2] - 1	
+	7.) Zeckendorf theorem
 		every n>0 can be represented as
 		n = F[k1] + F[k2] + F[k3] + .........
 		k1>=k2+2
