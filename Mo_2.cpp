@@ -1,4 +1,4 @@
-Same solution without global variables (the way I like to implement it):
+//Same solution without global variables (the way I like to implement it):
 
 #include <bits/stdc++.h>
   using std::vector;

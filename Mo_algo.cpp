@@ -3,7 +3,6 @@ using namespace std;
 
 int N, Q;
 
-// Variables, that hold current "state" of computation
 long long current_answer;
 long long cnt[100];
 
